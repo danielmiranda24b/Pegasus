@@ -17,3 +17,4 @@ h1{font-weight:400;font-size:clamp(48px,9vw,72px);letter-spacing:-.02em}
 .banner{height:260px;margin-top:36px;background:radial-gradient(circle at 30% 60%,#2d8cff,transparent 40%),radial-gradient(circle at 70% 40%,#e0457b,transparent 35%),#081226}
 .back{display:inline-block;margin:0 0 40px;font:600 15px var(--font-sans);color:#000}
 .center{text-align:center;padding-top:60px}
+.hint{margin-top:22px;font:14px var(--font-sans)}.hint code{font-family:var(--font-mono)}
