@@ -1,0 +1,19 @@
+:root{--ink:#000;--font-serif:"Source Serif 4",Georgia,serif;--font-sans:"Inter",system-ui,sans-serif;--font-mono:"JetBrains Mono",ui-monospace,monospace}
+*{box-sizing:border-box;margin:0}
+body{min-height:100vh;font-family:var(--font-serif);color:var(--ink);background:linear-gradient(180deg,#a8d2ff 0%,#c9dcf0 35%,#e6e9e6 60%,#fdf1e1 100%) fixed}
+nav{display:flex;justify-content:flex-end;align-items:center;gap:22px;padding:34px 24px;font:600 15px var(--font-sans)}
+nav a{color:var(--ink)}
+nav a:not(.contact){text-decoration:underline}
+nav .contact{margin-left:14px;text-decoration:none}
+.hero{text-align:center;padding:70px 20px 120px}
+h1{font-weight:400;font-size:clamp(48px,9vw,72px);letter-spacing:-.02em}
+.hero p{font-size:clamp(17px,3vw,21px);margin-top:12px}
+.btn{display:inline-block;margin-top:34px;padding:15px 16px;background:#000;color:#fff;font:14px var(--font-mono);letter-spacing:.04em;text-decoration:none}
+.btn::before{content:"\25AA\00a0\00a0"}
+.page{max-width:900px;margin:0 auto;padding:20px 24px 80px}
+.page h1{font-size:clamp(36px,6vw,48px);font-weight:600;margin-bottom:28px}
+.page h2{font:600 16px var(--font-sans);margin:24px 0 8px}
+.page p{font-size:17px;line-height:1.6;max-width:640px}
+.banner{height:260px;margin-top:36px;background:radial-gradient(circle at 30% 60%,#2d8cff,transparent 40%),radial-gradient(circle at 70% 40%,#e0457b,transparent 35%),#081226}
+.back{display:inline-block;margin:0 0 40px;font:600 15px var(--font-sans);color:#000}
+.center{text-align:center;padding-top:60px}
